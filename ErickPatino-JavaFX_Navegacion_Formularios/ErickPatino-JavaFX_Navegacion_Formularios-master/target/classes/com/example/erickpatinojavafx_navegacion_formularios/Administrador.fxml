@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane styleClass="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erickpatinojavafx_navegacion_formularios.AdminController">
+    <children>
+        <Label layoutX="260.0" layoutY="20.0" text="Administrador" styleClass="header-label" />
+
+        <Label layoutX="70.0" layoutY="52.0" text="Código Producto" />
+        <TextField fx:id="txtCodigo" layoutX="70.0" layoutY="76.0" prefWidth="200.0" styleClass="text-field" />
+
+        <Label layoutX="70.0" layoutY="119.0" text="Nombre Producto" />
+        <TextField fx:id="txtNombre" layoutX="70.0" layoutY="148.0" prefWidth="200.0" styleClass="text-field" />
+
+        <Label layoutX="70.0" layoutY="192.0" text="Tipo" />
+        <TextField fx:id="txtTipo" layoutX="70.0" layoutY="221.0" prefWidth="200.0" styleClass="text-field" />
+
+        <Label layoutX="70.0" layoutY="265.0" text="Descuento (%)" />
+        <Spinner fx:id="spDescuento" layoutX="70.0" layoutY="299.0" prefWidth="200.0" styleClass="spinner" />
+
+        <Button fx:id="btGuardar" layoutX="350.0" layoutY="76.0"  prefHeight="35.0" prefWidth="150.0" text="Guardar Producto" styleClass="button-primary" />
+    </children>
+</AnchorPane>

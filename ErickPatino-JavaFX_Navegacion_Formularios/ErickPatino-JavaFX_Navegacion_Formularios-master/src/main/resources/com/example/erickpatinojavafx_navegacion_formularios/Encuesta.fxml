@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erickpatinojavafx_navegacion_formularios.EncuestaController">
+
+   <children>
+
+      <Label layoutX="300" layoutY="10" styleClass="header-label" text="Encuesta">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+
+      <Label layoutX="30" layoutY="40" text="1. ¿Capital de Ecuador?" />
+      <RadioButton fx:id="rbQuito" layoutX="50" layoutY="70" text="Quito" />
+      <RadioButton fx:id="rbGuayaquil" layoutX="150" layoutY="70" text="Guayaquil" />
+      <RadioButton fx:id="rbCuenca" layoutX="280" layoutY="70" text="Cuenca" />
+
+      <Label layoutX="30" layoutY="110" text="2. ¿Cuál es el océano más grande del mundo?" />
+      <RadioButton fx:id="rbPacifico" layoutX="50" layoutY="140" text="Pacífico" />
+      <RadioButton fx:id="rbAtlantico" layoutX="180" layoutY="140" text="Atlántico" />
+      <RadioButton fx:id="rbIndico" layoutX="310" layoutY="140" text="Índico" />
+
+      <Label layoutX="30" layoutY="180" text="3. ¿Cuántos continentes hay?" />
+      <RadioButton fx:id="rbCinco" layoutX="50" layoutY="210" text="5" />
+      <RadioButton fx:id="rbSeis" layoutX="150" layoutY="210" text="6" />
+      <RadioButton fx:id="rbSiete" layoutX="250" layoutY="210" text="7" />
+
+      <Label layoutX="30" layoutY="250" text="4. ¿Cuál es el planeta rojo?" />
+      <RadioButton fx:id="rbMarte" layoutX="50" layoutY="280" text="Marte" />
+      <RadioButton fx:id="rbJupiter" layoutX="150" layoutY="280" text="Júpiter" />
+      <RadioButton fx:id="rbVenus" layoutX="280" layoutY="280" text="Venus" />
+
+      <Button fx:id="btCalificar" layoutX="500" layoutY="280" onAction="#calificar" styleClass="button" text="Calificar" />
+
+      <Label fx:id="lbResultado" layoutX="30" layoutY="350" prefWidth="500" />
+
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="444.0" prefWidth="600.0" styleClass="root" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erickpatinojavafx_navegacion_formularios.LoginController">
+   <children>
+      <Label layoutX="255.0" layoutY="14.0" prefHeight="55.0" prefWidth="89.0" text="Login" styleClass="header-label" />
+
+      <Label layoutX="56.0" layoutY="69.0" text="Usuario" />
+      <TextField fx:id="txtNombre" layoutX="56.0" layoutY="105.0" prefHeight="34.0" prefWidth="480.0" styleClass="text-field" />
+
+      <Label layoutX="56.0" layoutY="148.0" text="Contraseña" />
+      <PasswordField fx:id="txtPassword" layoutX="56.0" layoutY="183.0" prefHeight="34.0" prefWidth="480.0" styleClass="text-field" />
+
+      <Label layoutX="56.0" layoutY="234.0" text="Rol" />
+      <ComboBox fx:id="cmbRol" layoutX="56.0" layoutY="267.0" prefHeight="34.0" prefWidth="480.0" styleClass="combo-box" />
+
+      <Button fx:id="btIngresar" layoutX="56.0" layoutY="332.0" onAction="#ingresar" prefHeight="34.0" prefWidth="234.0" text="Ingresar" styleClass="button-primary" />
+      <Button fx:id="btSalir" layoutX="295.0" layoutY="332.0" onAction="#salir" prefHeight="34.0" prefWidth="241.0" text="Salir" styleClass="button-secondary" />
+
+      <Label fx:id="lbInfo" layoutX="56.0" layoutY="398.0" styleClass="label-info" />
+   </children>
+</AnchorPane>

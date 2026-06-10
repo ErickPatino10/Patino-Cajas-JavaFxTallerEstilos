@@ -1,0 +1,175 @@
+/* Configuración base */
+.root {
+    -fx-background-color: #0d1117; /* Un negro azulado muy elegante */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Títulos y Preguntas */
+.label {
+    -fx-text-fill: #e6edf3; /* Blanco grisáceo para mejor lectura */
+    -fx-font-size: 14px;
+}
+
+.header-label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #58a6ff; /* Azul brillante estilo VS Code */
+}
+
+/* RadioButtons */
+.radio-button {
+    -fx-text-fill: #8b949e;
+}
+
+.radio-button .radio {
+    -fx-background-color: transparent;
+    -fx-border-color: #58a6ff;
+    -fx-border-radius: 10px;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: #58a6ff;
+}
+
+/* Botón estilo Portafolio */
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #58a6ff;
+    -fx-border-color: #58a6ff;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px 20px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    /* Efecto de resplandor suave */
+    -fx-effect: dropshadow(three-pass-box, rgba(88, 166, 255, 0.2), 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #58a6ff;
+    -fx-text-fill: #0d1117;
+}
+
+/* Área de resultado */
+.label#lbResultado {
+    -fx-border-color: #30363d;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Estilo para los campos de entrada */
+.text-field, .combo-box {
+    -fx-background-color: #1c2128;
+    -fx-border-color: #30363d;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+}
+
+.text-field:focused {
+    -fx-border-color: #58a6ff;
+}
+
+/* Botón principal */
+.button-primary {
+    -fx-background-color: #58a6ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+}
+
+/* Botón secundario (Salir) */
+.button-secondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f85149;
+    -fx-border-color: #f85149;
+    -fx-border-radius: 5px;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #f85149;
+    -fx-text-fill: white;
+}
+
+/* Estilo para los campos de entrada */
+.text-field, .combo-box {
+    -fx-background-color: #1c2128;
+    -fx-border-color: #30363d;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+}
+
+.text-field:focused {
+    -fx-border-color: #58a6ff;
+}
+
+/* Botón principal */
+.button-primary {
+    -fx-background-color: #58a6ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+}
+
+/* Botón secundario (Salir) */
+.button-secondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f85149;
+    -fx-border-color: #f85149;
+    -fx-border-radius: 5px;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #f85149;
+    -fx-text-fill: white;
+}
+
+/* Subtítulos pequeños */
+.label-subtitulo {
+    -fx-text-fill: #58a6ff;
+    -fx-font-weight: bold;
+}
+
+/* Spinner estilo Dark */
+.spinner {
+    -fx-background-color: #1c2128;
+    -fx-border-color: #30363d;
+    -fx-border-radius: 5px;
+}
+
+.spinner .text-field {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+/* Ajuste del botón para que no se vea cuadrado */
+.button-primary {
+    -fx-background-color: #238636; /* Un verde oscuro estilo GitHub para acciones */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #2ea043;
+}
+
+/* Spinner oscuro */
+.spinner {
+    -fx-background-color: #1c2128;
+    -fx-border-color: #30363d;
+}
+
+.spinner .text-field {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+/* Etiquetas generales */
+.label {
+    -fx-text-fill: #c9d1d9;
+}
+
+.label-info {
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
